@@ -1,9 +1,9 @@
 import random
 print("Sê bem-vindo ao jogo dos números!")
-a = input ("Quem vai jogar? (1-utilizador / 2-computador): ")
+a = "0"
 while a!="1" and a!="2":
     print ("Escreve 1 ou 2!")
-    input ("Quem vai jogar? (1-utilizador / 2-computador): ")
+    a=input ("Quem vai jogar? (1-utilizador / 2-computador): ")
 if a=="1":
     numero = random.randint(0,100)
     resposta = int(input("Adivinha o número de 0 a 100: " ))
